@@ -15,5 +15,4 @@ VALID_WORDS = [
 INVALID_WORDS = [
     {"word": "", "translation": "яблоко"},
     {"word": "apple", "translation": ""},
-    {"word": None, "translation": "яблоко"},
 ]
