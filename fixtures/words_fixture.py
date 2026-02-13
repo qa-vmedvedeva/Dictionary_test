@@ -16,6 +16,7 @@ def added_word(api_client, request):
     }
 
     api_client.delete(f"/api/words/{word['id']}")
+
 @pytest.fixture
 def invalid_word(api_client, request):
     create_payload = request.param["word"]
