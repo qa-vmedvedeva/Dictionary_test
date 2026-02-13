@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bcc5256-ad10-473a-b011-bfd6bf755d05" name="Changes" comment="Added crud tests, negative tests+ allure reports">
+    <list default="true" id="1bcc5256-ad10-473a-b011-bfd6bf755d05" name="Changes" comment="Added tests for searching words">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/words.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/words.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixtures/words_fixture.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixtures/words_fixture.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/crud_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/crud_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/negative_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/negative_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,12 +159,12 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Python tests for tests" />
       <item itemvalue="Python tests.Python tests for tests.crud_test" />
       <item itemvalue="Python tests.Python tests for tests.crud_test.test_add_word" />
       <item itemvalue="Python tests.Python tests for tests.negative_test.test_get_word_not_found" />
-      <item itemvalue="Python tests.Python tests for tests.negative_test.test_post_word_not_found" />
       <item itemvalue="Python tests.Python tests for tests.negative_test.test_put_word_not_found" />
+      <item itemvalue="Python tests.Python tests for tests.negative_test.test_post_word_not_found" />
+      <item itemvalue="Python tests.Python tests for tests" />
     </list>
     <recent_temporary>
       <list>
@@ -203,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770148151368</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added tests for searching words">
+      <option name="closed" value="true" />
+      <created>1770989575550</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1770989575550</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -211,7 +215,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -219,6 +235,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added crud tests, negative tests+ allure reports" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added crud tests, negative tests+ allure reports" />
+    <MESSAGE value="Added tests for searching words" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added tests for searching words" />
   </component>
 </project>
