@@ -8,10 +8,8 @@ from fixtures.words_fixture import invalid_word, added_word
     ids=lambda w: w["word"]
 )
 def test_post_word_not_found(invalid_word, api_client):
-    print(invalid_word)
     response = api_client.post(f"/api/words/", invalid_word)
     assert response.status_code in (400,404)
-    print(response.status_code)
 
 @pytest.mark.parametrize(
     "added_word",
